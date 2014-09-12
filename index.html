@@ -1,20 +1,46 @@
----
-layout: default
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>@voxxit by voxxit</title>
 
-<div class="home">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">@voxxit</h1>
+        <p class="header">Joshua Delsman on GitHub</p>
 
-  <h1>Posts</h1>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <ul>
+          <li><a class="buttons github" href="https://github.com/voxxit">GitHub Profile</a></li>
+        </ul>
 
-</div>
+      </header>
+      <section>
+        <h3>
+<a name="docker-repositories" class="anchor" href="#docker-repositories"><span class="octicon octicon-link"></span></a>Docker Repositories</h3>
+
+<ul>
+<li>
+<code>voxxit/postgresql</code> - <a href="https://registry.hub.docker.com/u/voxxit/postgresql/">Automated Build</a> - <a href="http://github.com/voxxit/docker-postgresql">GitHub</a>
+</li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
