@@ -1,0 +1,23 @@
+{
+  "name": "voxxit.github.io",
+  "version": "0.1.5",
+  "homepage": "http://voxxit.com",
+  "authors": [
+    "Joshua Delsman <j@srv.im>"
+  ],
+  "description": "Website of Joshua Delsman",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0"
+  }
+}
