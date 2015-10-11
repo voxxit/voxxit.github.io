@@ -18,11 +18,6 @@ iframe {
     width: 100%;
 }
 
-
-
-
-
-
 /*html5 display rule*/
 address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
 	display: block;
@@ -237,14 +232,21 @@ nav#mainNav  .active{
 
 
 
-#teaser{
+#teaser {
 	color:#ffffff;
-	background:url(../images/topbg.jpg) ;
 	height:517px;
 	text-align:center;
 	background-position: center top;
 	background-repeat: repeat-y;
 	background-size: cover;
+}
+
+.webp #teaser{
+	background:url(../images/topbg.webp) ;
+}
+
+.no-webp #teaser{
+	background:url(../images/topbg.jpg) ;
 }
 
 #teaser .overlay {
